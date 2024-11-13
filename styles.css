@@ -1,0 +1,105 @@
+:root {
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: var(--Pale-blue);
+    font-family: "Red+Hat+Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 350px;
+    border-radius: 20px;
+    background-color: var(--Very-pale-blue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.first p {
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+}
+
+.first {
+    text-align: center;
+}
+
+.flex-box {
+    display: flex;
+    background-color: var(--Very-pale-blue);
+    border-radius: 5px;
+}
+
+.inner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.link a {
+    color: var(--Bright-blue);
+    font-weight: 700;
+}
+
+button {
+    width: 100%;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: var(--Dark-blue);
+    cursor: pointer;
+}
+
+h4 {
+    font-weight: 900;
+}
+
+.cancel {
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+}
+
+span {
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
